@@ -13,4 +13,6 @@ public interface Test {
 	 * The run() methods implements the execution of the actual test.
 	 */
 	public void run();
+	
+	public String getTestName();
 }
